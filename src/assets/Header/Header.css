@@ -1,8 +1,40 @@
 .header--img{
-width: 500px;
-height: 500px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 10px;
 }
 .header--name{
+    margin: 0;
+}
+.header{
     text-align: center;
-    
+}
+.header--bottom-text{
+    color: #F3BF99;
+    margin: 10px;
+}
+.header--links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header--link{
+    display: flex;
+    margin: 10px 10px;
+    padding: 9px 70px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 600;
+    justify-content: center;
+}
+.header--link > img{
+    margin-right: 10px;
+}
+.blue{
+    background-color: #5093E2;
+    color: white;
 }
