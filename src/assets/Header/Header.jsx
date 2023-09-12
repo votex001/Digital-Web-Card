@@ -4,7 +4,7 @@ import "./Header.css"
 export default function Header(){
     return (
         <>
-        <img />
+        <img src="profie.jpg"/>
         </>
     )
 }
